@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<br>
+    <h1>Haz tu pedido aquí</h1>
+
+    <h3>Datos personales</h3>
+
+    <br action="pedido.js">
+        <label for="Nombre">¿Cúal es tu nombre?</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br></br>
+        <label for="correo">¿Cúal es tu email?</label>
+        <input type="email" id="correo" name="correo" placeholder="Tu correo"><br></br>
+        <label for="telefono">¿Cúal es tu teléfono?</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número" maxlength="10">
+        <br><br>
+        <label for="Dirección">¿Cúal es tu Dirección?</label>
+        <input type="text" id="Dirección" name="Dirección" placeholder="Dirección"><br><br>
+        <h3>Sabores y cantidades</h3>
+        <p>Marca la casilla del sabor de tu elección y el numero de piezas</p>
+        <input type="checkbox" name="chocolate" id="chocolate" value="Chocolate">
+        <label for="chocolate">Chocolate</label>
+        <input type="number"id="chocolatecuantos" name="chocolatecuantos">
+        <br>    <br>
+        <input type="checkbox" name="vainilla" id="vainilla" value="Vainilla">
+        <label for="vainilla">Vainilla</label>
+        <input type="number"id="vecuantos" name="vcuantos">
+        <br>    <br>
+        <input type="checkbox" name="fresa" id="fresa" value="Fresa">
+        <label for="fresa">Fresa</label>
+        <input type="number"id="fcuantos" name="fcuantos">
+        <br>    <br>
+        <input type="checkbox" name="café" id="café" value="Café">
+        <label for="café">Café</label>
+        <input type="number"id="ccuantos" name="ccuantos">
+        <br>    <br>
+        <input type="checkbox" name="tresleches" id="tresleches" value="Tres Leches">
+        <label for="tresleches">Tres Leches</label>
+        <input type="number"id="tcuantos" name="tcuantos">
+        <br>    <br>
+        <p>¿Que decorado te gustaría?</p>
+        <select name="decorado" id="decorado">
+            <option value="Glaseado">Glaseado</option>
+            <option value="Espolvoreado">Espolvoreado</option>
+            <option value="Fruta">Fruta</option>
+            <option value="Chocolate Granillo">Chocolate Granillo</option>
+            <option value="Fondae">Fondae</option>
+            <option value="Ninguno">Ninguno</option>
+        </select>
+        <br>
+        <br>
+
+
+
+
+        <label for="comentario">Dinos si requieres alguna especificación:</label>
+        <input type="text" id="comentario" name="comentario" placeholder="Comenta">
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+    </form>
+    
+</body>
+</html>
